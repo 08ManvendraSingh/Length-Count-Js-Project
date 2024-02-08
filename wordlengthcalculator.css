@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: orange;
+	color: black;
+	text-align: center;
+}
+.main h3{
+	font-size: 2rem;
+}
+#input{
+	margin-top: 10rem;
+	min-width: 20%;
+	height: 2.5rem;
+	outline:none;
+	font-size: 1rem;
+}
+#output{
+	margin-top: 5rem;
+	max-width: 50%;
+	height: 2.5rem;
+	outline:none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: #222;
+	color: white;
+	text-align: center;
+}
+button{
+	min-width: 20%;
+	height: 3rem;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-top: 10rem;
+}
+
+
